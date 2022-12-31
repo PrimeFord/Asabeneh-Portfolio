@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 4rem 10rem;
+}
+h1 {
+  font-size: 4rem;
+  font-weight: 500;
+  letter-spacing: 1.2rem;
+}
+.abt {
+  font-size: 2rem;
+  font-weight: 200;
+  padding: 1.5rem 2rem;
+  background-color: #eddfde;
+}
+.content {
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  line-height: 2rem;
+  word-spacing: 0.2rem;
+}
+div {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  background-color: #f7f4f5 #fcfcfd;
+}
+div p {
+  height: 15rem;
+  width: 15rem;
+  background-color: #f9fafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+div p:hover {
+  background-color: #eddfde;
+  cursor: pointer;
+}
+.teach {
+  margin-top: 4rem;
+}
+.teach span {
+  font-size: 4rem;
+}
