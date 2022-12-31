@@ -15,10 +15,20 @@ h1 {
   letter-spacing: 1.2rem;
 }
 .abt {
+  padding: 1.5rem 2rem 0rem;
+  background-color: #eddfde;
+  display: flex;
+  justify-content: flex-start;
   font-size: 2rem;
   font-weight: 200;
-  padding: 1.5rem 2rem;
-  background-color: #eddfde;
+}
+.word {
+  /* margin-right: 1rem; */
+}
+.about {
+  display: flex;
+  width: max-content;
+  animation: marquee 2s linear 0s infinite normal;
 }
 .content {
   font-size: 1.2rem;
@@ -33,7 +43,7 @@ div {
   justify-content: space-around;
   background-color: #f7f4f5 #fcfcfd;
 }
-div p {
+.opt p {
   height: 15rem;
   width: 15rem;
   background-color: #f9fafa;
@@ -41,13 +51,26 @@ div p {
   justify-content: center;
   align-items: center;
 }
-div p:hover {
+.opt p:hover {
   background-color: #eddfde;
   cursor: pointer;
 }
 .teach {
+  font-size: 1.2rem;
   margin-top: 4rem;
 }
 .teach span {
-  font-size: 4rem;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20%, 0);
+  }
+  100% {
+    transform: translate(30%, 0);
+  }
 }
