@@ -11,3 +11,9 @@ const about = ["📖 Instructor",
 "💻 Programmer",
 
 ];
+
+Const teach=["HTML", "JAVASCRIPT", "REACT", "REDUX",
+
+"NODE", "PYTHON", "MONGODB", "PANDAS", "NUMPY"
+
+]
