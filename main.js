@@ -1,19 +1,21 @@
-const about = ["📖 Instructor",
-
-"🔥 Motivator",
-
-"🔥Motivational Speaker",
-
-"📔 Content Creator",
-
-"🌱 Educator",
-
-"💻 Programmer",
-
+const about = [
+  "📖 Instructor",
+  "🔥 Motivator",
+  "🔥Motivational Speaker",
+  "📔 Content Creator",
+  "🌱 Educator",
+  "💻 Programmer",
 ];
 
-Const teach=["HTML", "JAVASCRIPT", "REACT", "REDUX",
+const teach = [
+  "HTML",
+  "JAVASCRIPT",
+  "REACT",
+  "REDUX",
 
-"NODE", "PYTHON", "MONGODB", "PANDAS", "NUMPY"
-
-]
+  "NODE",
+  "PYTHON",
+  "MONGODB",
+  "PANDAS",
+  "NUMPY",
+];
